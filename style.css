@@ -1,0 +1,300 @@
+
+
+body {
+    margin: 0;
+    position: relative;
+    padding: 0;
+    font-family: "Roboto-Regular",Arial,sans-serif;
+}
+
+
+/*-------- HEADER --------*/
+
+#headwebsite{
+    display: flex;
+    background-color: rgb(28, 28, 28);
+    border-bottom: 3px solid rgb(0, 235, 235);
+}
+
+
+.title{
+    display: flex;
+    width: 20%;
+    margin-left: 10rem;
+    font-size: 35px;
+    color: rgb(0, 119, 255);
+}
+
+.logo{
+    display: flex;
+    width: 120px;
+}
+
+/*-------- Menu pour naviguer --------*/
+
+.Menu{
+    display: flex;
+    position: absolute;
+    width: 30%;
+    padding-left: 70rem;
+    margin-top: 2rem;
+}
+
+.Menu ul li{
+    text-decoration: none;
+    list-style-type: none;
+
+} 
+
+.Menu ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+
+} 
+
+.Menu ul{
+    display: flex;
+}
+
+.Menu li{
+    margin-left: 3rem;
+    font-size: 20px;
+}
+
+nav a:hover{
+    border-top: 3px solid rgb(0, 133, 200);
+    padding-top: 12px;
+}
+
+/*-------- Première section --------*/
+
+.Lancement{
+    display: flex;
+}
+
+.first-picture{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/*-------- Présentation --------*/
+
+.Services{
+    display: block;
+    width: 100%;
+    height: 700px;
+}
+
+.Presentation h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.Presentation p{
+    width: 50%;
+    margin-left: 30rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.Presentation img{
+    position: absolute;
+    width: 280px;
+    margin-top: 5rem;
+    margin-left: 25%;
+}
+
+/*-------- Description --------*/
+
+.Description{
+    margin-top: 4rem;
+}
+
+.Description h3{
+    margin-left: 55%;
+}
+
+.Description p{
+    margin-left: 55%;
+}
+
+.Description .fa-chart-line{
+    position: absolute;
+    font-size: 2.2rem;
+    margin-top: 0.8rem;
+    color: rgb(0, 159, 245);
+    margin-left: 50%;
+}
+
+/*-------- UI DESIGN --------*/
+
+.UI{
+    margin-top: 4rem;
+}
+
+.UI  h4{
+    margin-left: 55%;
+    font-size: larger;
+}
+
+.UI .fa-cubes{
+    font-size: 2.2rem;
+    margin-top: 0.8rem;
+    position: absolute;
+    color: rgb(0, 159, 245);
+    margin-left: 50%;
+}
+
+.UI p{
+    margin-left: 55%;
+}
+
+/*-------- SEO --------*/
+
+.referencement{
+    margin-top: 4rem;
+}
+
+.referencement h5{
+    margin-left: 55%;
+    font-size: larger;
+}
+
+.referencement p{
+    margin-left: 55%;
+}
+
+.referencement .fa-chart-bar{
+    font-size: 2.2rem;
+    margin-top: 0.8rem;
+    position: absolute;
+    color: rgb(0, 159, 245);
+    margin-left: 50%;
+}
+
+
+
+/*-------- Bas de page --------*/
+
+#bas{
+    width: 100%;
+    margin-top: 0;
+    border-bottom: 3px solid rgb(0, 235, 235);
+    position: absolute;
+    background-color: rgb(30, 30, 30);
+
+}
+
+#bas p{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.reseau{
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+}
+
+.Youtube{
+    display: flex;
+    background: black;
+    border-radius: 50%;
+    width: 47px;
+    height: 47px; 
+}
+
+.Youtube::before{
+    display: flex;
+    position: relative;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.9);
+    height: 47px;
+    width: 47px;
+}
+
+.Youtube:hover::before{
+    transform: scale(1.2);
+}
+
+.Youtube .fa-youtube{
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    margin-top: 0.8rem;
+    margin-left: 0.65rem;
+}
+
+.twitter{
+    background: black;
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+    margin-left: 1.2rem;
+}
+
+.twitter .fa-x-twitter{
+    color: white;
+    position: absolute;
+    margin-top: 0.8rem;
+    margin-left: 0.83rem;
+    font-size: 23px;
+}
+
+.tiktok{
+    background: black;
+    border-radius: 50%;
+    margin-left: 1.2rem;
+    width: 47px;
+    height: 47px;
+}
+
+.tiktok .fa-tiktok{
+    font-size: 22px;
+    position: absolute;
+    margin-top: 0.8rem;
+    margin-left: 0.9rem;
+    color: white;
+}
+
+
+.Instagram{
+    background: black;
+    border-radius: 50%;
+    margin-left: 1.0rem;
+    width: 47px;
+    height: 47px;
+}
+
+.Instagram .fa-instagram{
+    font-size: 28px;
+    position: absolute;
+    text-align: center;
+    margin-top: 0.6rem;
+    margin-left: 0.72rem;
+    color: white;
+}
+
+.copyright p{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.copyright .fa-copyright{
+    color: white;
+    position: absolute;
+    margin-left: 50rem;
+    margin-top: 0.3rem;
+}
